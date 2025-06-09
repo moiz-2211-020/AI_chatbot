@@ -28,6 +28,19 @@ Clone the repository:
 git clone https://github.com/moiz-2211-020/AI_chatbot.git
 cd AI_chatbot_for_hydrogen/Final_Ai_project
 
+Make a .env file and set the  following environment variables
+
+GEMINI_API_KEY=AIzaSyAhSYlaJhQAVzkYPXwUSUOfBEg2DVyxlxI
+COLLECTION_NAME=pdf_chunks
+MYSQL_HOST=ec2-54-162-117-48.compute-1.amazonaws.com
+MYSQL_PORT=5556
+MYSQL_USER=root
+MYSQL_PASSWORD=fusiontestingdb
+MYSQL_DATABASE=Fusion
+JWT_SECRET=JSON
+JWT_ALGORITHM=HS256
+
+
 Then start the application using Docker Compose:
 
 bash
@@ -67,14 +80,4 @@ Interactive documentation is available at:
 http://0.0.0.0:8000/docs
 
 
-Make a .env file and add following environment variables
 
-GEMINI_API_KEY=AIzaSyAhSYlaJhQAVzkYPXwUSUOfBEg2DVyxlxI
-COLLECTION_NAME=pdf_chunks
-MYSQL_HOST=ec2-54-162-117-48.compute-1.amazonaws.com
-MYSQL_PORT=5556
-MYSQL_USER=root
-MYSQL_PASSWORD=fusiontestingdb
-MYSQL_DATABASE=Fusion
-JWT_SECRET=JSON
-JWT_ALGORITHM=HS256
